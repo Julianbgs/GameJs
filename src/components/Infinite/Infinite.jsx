@@ -1,11 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import './Infinite.sass';
 
-class Infinite extends React.Component{
+class Infinite extends Component{
   render() {
     return(
-      <div className="Infinite">
-      </div>
+      <div className="Infinite" style={this.props.options} />
     )
   }
 }
