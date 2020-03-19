@@ -1,0 +1,47 @@
+.Modal
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100vh
+  z-index: 2000
+
+.Modal__Overlay
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+
+.Modal__Body
+  position: absolute
+  top: 50%
+  left: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  width: 500px
+  height: 350px
+  background-color: rgba(255, 255, 255, 0.8)
+  transform: translate(-50%, -50%)
+  border-radius: 50px
+
+.Modal__Title
+  margin-bottom: 50px
+  font-size: 25px
+  color: #000000
+
+.Modal__Descr
+  font-size: 18px
+  color: crimson
+
+.Modal__Close
+  position: absolute
+  top: 30px
+  right: 30px
+  width: 26px
+  height: 26px
+  background-image: url("./close-modal.png")
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
+  cursor: pointer
