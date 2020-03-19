@@ -3,6 +3,7 @@ import './Modal.sass';
 
 class Modal extends Component {
   render() {
+    //hide/show modal depend on state parent component
     if(!this.props.show){
       return null
     }
